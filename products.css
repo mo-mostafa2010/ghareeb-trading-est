@@ -1,0 +1,98 @@
+.photo{
+	margin-top:10vw;
+	height:20vw;
+	background-color:#353857 !important;
+	background-image:url('imgs/product.jpg');
+	background-color:rgba(0, 0, 0, 1) !important;
+	background-size:cover;
+	overflow: hidden;
+    color: #FFFFFF
+}
+.color{
+	background-color:rgba(0, 0, 0, 0.5) !important;
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+    color:#fff;
+    text-align:center;
+    font-size:4vw;
+    text-transform: uppercase;
+    line-height: 20vw;
+    font-weight:bold;
+}
+.sections > a{
+    color:black !important;
+}
+.honey{
+    width:92vw;
+    margin:0 auto;
+    padding:0 auto;
+    display:flex;
+}
+.left{
+    float:left;
+    width:26.6vw;
+    height:36.6vw;
+    margin-top:5vw;
+}
+.product{
+    width:26.6vw;
+    height:29.28vw;
+    background-color:#42a061;
+}
+.price{
+    width:cover;
+    height:7.32vw;
+    background-color:#414141;
+    margin-bottom:2vw;
+}
+.price > .word > p {
+    text-align:center;
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:bold;
+    padding-top:1.6vw;
+    font-size:1.1vw;
+}
+.word{
+    margin:0 auto;
+    padding:0 auto;
+}
+.center{
+    float:center;
+    margin-left:2vw;
+    margin:0 auto;
+}
+.right{
+    float:right;
+    width:26.6vw;
+    height:36.6vw;
+    margin-top:0vw;
+    margin-left:2vw;
+}
+.center > img{
+    width:26.6vw;
+    height:15vw;
+}
+.birds{
+    width:92vw;
+    display:flex;
+    margin:0 auto;
+    padding:0 auto;
+}
+@media only screen and (max-width: 767px) {
+    .container{
+        display:none !important;
+    }
+    .photo{
+        margin-bottom:30px !important;
+    }
+    .price{
+        height: auto !important;
+    }
+    .price > .word > p{
+        font-size:10px;
+        padding-bottom:15px;
+    }
+
+}

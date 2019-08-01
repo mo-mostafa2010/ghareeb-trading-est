@@ -1,0 +1,85 @@
+.photo{
+	margin-top:10vw;
+	height:20vw;
+	background-color:#353857 !important;
+	background-image:url('imgs/rat.jpg');
+	background-color:rgba(0, 0, 0, 1) !important;
+	background-size:cover;
+	overflow: hidden;
+    color: #FFFFFF
+}
+.color{
+	background-color:rgba(0, 0, 0, 0.5) !important;
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+    color:#fff;
+    text-align:center;
+    font-size:4vw;
+    text-transform: uppercase;
+    line-height: 20vw;
+    font-weight:bold;
+}
+.blog1{
+	background-color:#42a061;
+	width:73.8vw;
+	height:42.2vw;
+	color:#fff;
+	margin:0 auto;
+	padding:0 auto;
+	margin-top:3.5vw;
+	text-align:center;
+}
+.blog-words{
+	width:73.2vw;
+	margin:0 auto;
+	margin:0 auto;
+	margin-bottom:7vw;
+}
+.blog-words > h4{
+	font-size:2.6vw;
+}
+.blog-words > p{
+	font-size:1.5vw;
+}
+.multi{
+	height:42vw;
+	display:flex;
+}
+.multi1{
+	display:flex;
+	width:65%;
+	height:cover;
+	background-color:#42a061;
+}
+.multi2{
+	z-index:2;
+	background-color:#fff;
+	max-height:42vw;
+	width:34vw;
+	margin-left:0.4vw;
+}
+.multi21{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+	background-color:#42a061;
+	height:13.8vw;
+	margin-bottom:0.3vw;
+	width:cover;
+}
+@media only screen and (max-width: 767px) {
+	.blog1{
+		width:90vw;
+		height:51.78vw;
+	}
+	.blog-words{
+		width:90vw;
+	}
+	.blog-words > h4{
+		font-size:18px;
+	}
+	.blog-words > p{
+		font-size:11px;
+	}
+	}

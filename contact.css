@@ -1,0 +1,132 @@
+body{
+    color:#414141;
+}
+.photo{
+	margin-top:10vw;
+	height:20vw;
+	background-color:#353857 !important;
+	background-image:url('design/contact-us-background2.jpeg');
+	background-color:rgba(0, 0, 0, 1) !important;
+	background-size:cover;
+	overflow: hidden;
+    color: #FFFFFF
+}
+
+.color{
+	background-color:rgba(0, 0, 0, 0.5) !important;
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+    color:#fff;
+    text-align:center;
+    font-size:4vw;
+    text-transform: uppercase;
+    line-height: 20vw;
+    font-weight:bold;
+}
+.map{
+    width:cover;
+    margin-top:4vw;
+}
+.map img {
+    width:6vw !important;
+    display:block;
+    margin:0 auto !important;
+    padding:0 auto !important;
+}
+.gallerytop{
+    margin-left:12.5vw;
+    margin-top:2vw;
+    margin-bottom:1.6vw;
+}
+.gallerytop > h2 {
+    width:75vw;
+    font-size:2vw;
+    text-align:center;
+    border-bottom: 3px solid #e4e1e1;
+    line-height:0.1em;
+    margin:0px;
+ } 
+.gallerytop > h2 span { background:#fff;
+ padding:0px; 
+ font-size:2vw;
+ color:#343434;
+ text-transform:uppercase;
+ font-weight:bold;
+}
+#map {
+        height: 60vw;
+        width: 72vw;
+        margin:0 auto;
+        padding:0 auto;
+        display:block;
+        margin-top:3.8vw;
+        margin-bottom:3vw;
+        border-style:solid;
+        border-color:#414141;
+        border-width:2px;
+       }
+.map > p {
+    text-align:center;
+    font-size:1.3vw;
+    color:#414141;
+}
+.contacts{
+    width:72vw;
+    margin:0 auto;
+    padding:0 auto;
+    display:block;
+    margin-bottom:16vw;
+}
+.contacts > .left > img{
+    width:4vw !important;
+}
+.contacts > .right > img{
+    width:4vw !important;
+    margin-left:3vw;
+}
+.icns11{
+    float: left;
+}
+.left{
+    float:left;
+    width:44vw;
+}
+.right{
+    float:right;
+    width:28vw;
+}
+.contacts > .left > .mails > p{
+    font-weight:bold;
+    font-size:1.7vw;
+    padding-top:1vw;
+    padding-left:1vw;
+    padding-bottom:0 !important;
+    color:#414141;
+}
+.contacts > .left > .mails > span{
+    margin-top:-7vw;
+    font-size:1.7vw;
+    padding-left:5vw;
+    color:#414141;
+}
+.contacts > .right > .mails > p{
+    font-weight:bold;
+    font-size:1.7vw;
+    padding-top:1vw;
+    padding-left:1vw;
+    padding-bottom:0 !important;
+    color:#414141;
+}
+.contacts > .right> .mails > span{
+    margin-top:-7vw;
+    font-size:1.7vw;
+    padding-left:5vw;
+    color:#414141;
+}
+.contacts > .right> .mails > h6{
+    font-size:1.7vw;
+    padding-left:5vw;
+    color:#414141;
+}
+

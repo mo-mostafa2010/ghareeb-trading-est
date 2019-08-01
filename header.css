@@ -1,0 +1,40 @@
+.header{
+	background-color:#414141;
+	width:100%;
+}
+.contact{
+	background-color:#42A061;
+	color:#fff;
+	margin-left:3.8vw;
+	margin-bottom:0.54vw;
+	margin-top:0.54vw;
+	display:inline-block;
+	padding-top:0.27vw;
+	padding-bottom:0.27vw;
+	font-size:0.7vw;
+	padding-left:1.09vw;
+	padding-right:1.09vw;
+	border-radius:0.7vw;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+a, a:hover, a:focus {
+	text-decoration:none !important;
+	color:#fff !important;
+}
+.icon{
+	height:1.09vw;
+	display:inline-block;
+	margin-right:0.75vw;
+}
+
+.contain{
+	float:right;
+	margin-right:3.8vw;
+	margin-top:0.54vw;
+}
+.item11 img {
+    top: 0;
+    left: 0;
+    height: 1vw !important;
+}
