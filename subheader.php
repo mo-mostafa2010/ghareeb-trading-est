@@ -10,20 +10,20 @@
 	    </div>
 	    <div class="collapse navbar-collapse shades" id="myNavbar">
 	      <ul class="nav nav11 navbar-nav center" id="bar22">
-	        <li class="pages11"><a class="wsa" href="home.php">Home</a></li>
-	         <li class="<?php if ($page=="Blog") {echo "active11"; } ?> pages11"><a href="blog.php">BLOG</a></li>
+	        <li class="pages11"><a class="wsa" href="home.html">Home</a></li>
+	         <li class="<?php if ($page=="Blog") {echo "active11"; } ?> pages11"><a href="blog.html">BLOG</a></li>
 	        <li class="dropdown pages111 pages11  <?php if ($page=="Products") {echo "active11"; } ?>">
-	          <a class="dropdown-toggle" href="products.php">products <span class="caret"></span></a>
+	          <a class="dropdown-toggle" href="products.html">products <span class="caret"></span></a>
 	          <ul class="dropdown-menu drp">
-	            <li class="drps"><a href="products.php#honey">Honey</a></li>
-	            <li><a href="products.php#birds">BIRDS</a></li>
-	            <li><a href="products.php#food">FOOD</a></li>
-	            <li><a href="products.php#rats">HAMSTER</a></li>
+	            <li class="drps"><a href="products.html#honey">Honey</a></li>
+	            <li><a href="products.html#birds">BIRDS</a></li>
+	            <li><a href="products.html#food">FOOD</a></li>
+	            <li><a href="products.html#rats">HAMSTER</a></li>
 	          </ul>
 	        </li>
-	        <li class="pages11 <?php if ($page=="Gallery") {echo "active11"; } ?>"><a href="gallery.php">GALLERY</a></li>
-	        <li class="pages11 <?php if ($page=="Contact") {echo "active11"; } ?>"><a href="contact.php">Contact us</a></li>
-	         <li class="pages11 <?php if ($page=="About") {echo "active11"; } ?>"><a href="about.php">about us</a></li>
+	        <li class="pages11 <?php if ($page=="Gallery") {echo "active11"; } ?>"><a href="gallery.html">GALLERY</a></li>
+	        <li class="pages11 <?php if ($page=="Contact") {echo "active11"; } ?>"><a href="contact.html">Contact us</a></li>
+	         <li class="pages11 <?php if ($page=="About") {echo "active11"; } ?>"><a href="about.html">about us</a></li>
 	      </ul>
 	      
 	    </div>

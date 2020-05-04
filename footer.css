@@ -42,7 +42,7 @@ body{
 .drp > li >a {
 	color:green !important;
 	font-size:0.7vw !important;
-	width:5px !import;
+	width:5px !important;
 }
 .dropdown-menu{
 	min-width: 10.5vw !important;
