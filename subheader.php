@@ -10,7 +10,7 @@
 	    </div>
 	    <div class="collapse navbar-collapse shades" id="myNavbar">
 	      <ul class="nav nav11 navbar-nav center" id="bar22">
-	        <li class="pages11"><a class="wsa" href="home.html">Home</a></li>
+	        <li class="pages11"><a class="wsa" href="index.html">Home</a></li>
 	         <li class="<?php if ($page=="Blog") {echo "active11"; } ?> pages11"><a href="blog.html">BLOG</a></li>
 	        <li class="dropdown pages111 pages11  <?php if ($page=="Products") {echo "active11"; } ?>">
 	          <a class="dropdown-toggle" href="products.html">products <span class="caret"></span></a>
